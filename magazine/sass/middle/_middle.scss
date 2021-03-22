@@ -1,0 +1,17 @@
+.middle {
+    margin-top: 30px;
+    padding-right: 58px;
+    text-align: center;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(5, 300px);
+        justify-content: center;
+    }
+    &__item {
+        font-weight: 600;
+        font-size: 15px;
+        color: rgb(115, 115, 250);
+        margin-bottom: 15px;
+        text-transform: uppercase;
+    }
+}

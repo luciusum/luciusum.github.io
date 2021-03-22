@@ -1,0 +1,34 @@
+.priority {
+    padding-top: 10px;
+    background: $container-color;
+    &__wrapper {
+        margin-top: 60px;
+        padding: 0 60px;
+        display: grid;
+        grid-template: repeat(3, minmax(45px, auto)) / repeat(2, 365px);
+        grid-auto-rows: minmax(45px, auto);
+        row-gap: 15px;
+        justify-content: space-between;
+    }
+    &__item {
+        position: relative;
+        display: grid;
+        grid-template: repeat(2, minmax(21px, auto)) / repeat(2, auto);
+        row-gap: 5px;
+        padding-left: 25px;
+        &:before {
+            content: '';
+            width: 15px;
+            height: 15px;
+            background-color: rgb(65, 147, 255);
+            border-radius: 100%;
+            position: absolute;
+            top: 3px;
+        }
+    }
+    &__type{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+    }
+}

@@ -1,0 +1,345 @@
+
+
+html {
+    font-size: 12px;
+    font-family: 'Raleway';
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    min-width: 1200px;
+}
+
+header,
+header div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header {
+    color: white;
+    height: 740px;
+    padding-bottom: 90px;
+
+    background-image: url('img/moskov.jpg');
+    background-size: 115%;
+    background-attachment: fixed;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+    align-self: stretch;
+
+    margin: 0 20px;
+    border-bottom: 1px solid grey;
+    padding: 0 156px;
+}
+
+nav img {
+    align-self: center;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav ul {
+    display: flex;
+
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+nav > ul {
+    padding-top: 40px;
+}
+
+.nav-but > li > * {
+    color: inherit;
+    font-size: 1.25rem;
+    white-space: nowrap;
+    padding: 40px 23px;
+}
+
+.nav-but > li {
+    position: relative;
+}
+
+.nav-but > li > a::after {
+    display: block;
+
+    width: 100%;
+    height: 0;
+    content: "";
+    background-color: #11749e;
+    transition: height .2s ease-in-out;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.nav-but > li > a:hover:after {
+    height: 6px;
+}
+
+.nav-but > li:last-child {
+    margin-right: -23px;
+}
+
+.nav-but > li:first-child {
+    margin-left: -23px;
+}
+
+.nav-but > li > ul {
+    padding-top: 0;
+}
+
+
+.social img {
+    height: 50px;
+    opacity: 1;
+    transition: opacity .15s linear;
+}
+.social .instagram {
+    height: 20px;
+}
+
+.social a:hover img {
+    opacity: .5;
+}
+
+.nav-logo {
+    width: 64px;
+    border-radius: 100%;
+    margin-top: -8px;
+}
+
+h1 {
+    font-size: 11.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: red;
+}
+
+.blue-big-p {
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.74em;
+    color: #ffffff;
+}
+
+.header-h {
+    margin-top: 100px;
+}
+
+.scroll-container {
+    box-sizing: content-box;
+
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    opacity: 1;
+    color: white;
+    transition: .5s ease-in-out;
+}
+
+.scroll-container:hover {
+    margin-bottom: -20px;
+    padding-top: 20px;
+    opacity: .5;
+    color: white;
+}
+
+.scroll-down {
+    width: 56px;
+}
+
+section {
+    padding: 60px 165px 36px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 100px;
+    padding: 0 165px;
+    background-color: #222;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+.blue-section {
+    background-color: #7eff09;
+    color: white;
+}
+
+.section-h {
+    position: relative;
+    margin: 6rem 0;
+}
+
+.section-h h2 {
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    color:rgb(255, 0, 0);
+    font-size: 4.8rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.letter-w::before {
+    content: 'MLBB';
+    color: blue;
+}
+
+.section-h::before {
+    font-size: 15rem;
+    font-weight: bold;
+    text-align: center;
+    opacity: .18;
+    width: 100%;
+    line-height: 15rem;
+
+    position: absolute;
+    left: 0;
+    top: calc(-7.5rem + 50%);
+}
+
+.figure-container {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 100px;
+    width: 100%;
+}
+
+figure {
+    position: relative;
+
+    text-align: center;
+    padding: 16px;
+    margin-bottom: 0;
+}
+
+p {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .1rem;
+    font-size: 1.3rem;
+    margin: 10px 0 18px;
+    color: black;
+}
+
+.description-p {
+    font-size: 1.2rem;
+    text-transform: unset;
+    font-weight: normal;
+    letter-spacing: .1rem;
+    margin: 0;
+    color: black;
+}
+.feature-picture {
+    width: 114px;
+}
+
+.block {
+    padding: 80px 86px;
+}
+
+.block-section {
+    padding: 0;
+    padding-bottom: 50px;
+    background-color:rgb(255, 0, 0)
+}
+.capitan__img {
+    padding-left: 7%;
+    height: 450px;
+}
+.capitan {
+    color: black;
+    margin-bottom: 30px;
+}
+
+.padding-left {
+    padding-left: 180px;
+}
+
+.padding-right {
+    padding-right: 180px;
+}
+
+.white-block p {
+    color: #222;
+}
+
+.grey-block {
+    background-color: rgb(255, 255, 255);
+    color: white;
+}
+
+h2 {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+.title__bust {
+    font-size: 8rem;
+    color: crimson;
+}
+
+.block-group {
+    display: flex;
+}
+
+.block-w50 > .block {
+    width: 50%;
+}
+.section-description-p {
+    font-size: 2.2rem;
+    letter-spacing: .07rem;
+    text-align: center;
+}
+button {
+    display: block;
+    color: white;
+    background-color: rgb(0, 26, 255);
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.7rem;
+    padding: 12px 48px;
+    transition: .15s linear;
+    margin: auto 40%;
+}
+
+button:hover {
+    background-color: #ff0404;
+    color: #e7e7e7;
+}
+
+input {
+    width: 31%;
+    height: 40px;
+    font-size: 1.2rem;
+    color: inherit;
+    padding: 15px;
+    border: 1.0px solid rgb(0, 0, 0);
+    background-color: transparent;
+    margin-bottom: 30px;
+}

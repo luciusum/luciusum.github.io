@@ -1,0 +1,35 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  }
+.container {
+  width: 1200px;
+}
+.divider {
+  height: 1px;
+  width: 100%;
+  background-color: #c5c5c5;
+  margin: 25px auto 0 auto;
+}
+@import "variables/_variables.sass";
+@import "mixins/_mixins.sass";
+@import "title/title";
+@import "media/_media.sass";
+
+@import "header/_header.sass";
+@import "subheader/_subheader";
+@import "promo/_promo.sass";
+@import "slide/carousel";
+@import "middle/middle";
+@import "catalog/catalog";
+@import "demonstration/demonstration";
+@import "priority/priority";
+@import "contacts/contacts";
+@import "order/order";
+@import "footer/_footer";
+@import "modal/modal";
+
+
+
+
+
+  

@@ -1,0 +1,32 @@
+.demonstration {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 30px;
+    background: $container-color;
+    &__btn {
+        border: 2px solid #0dabea;
+        color: #0dabea;
+        padding: 14px 50px;
+        margin-top: 20px;
+        display: inline-block;
+        border-radius: 8px;
+        &:hover {
+            background-color: rgb(52, 231, 255);
+        }
+        &-second {
+            padding: 14px 50px;
+            display: inline-block;
+            border-radius: 8px;
+            background-color: #0e31fa;
+            cursor: pointer;
+            margin-top: 20px;
+            &:hover {
+                background:green;
+            }
+            a {
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
+}

@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>work</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" >
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <header>
+        <nav><div class="container">
+            <ul class="menu">
+                <li class="li menu_item"><a href="https://www.wildberries.ru" class="menu_link">О Компании</a></li>
+                <li class="li menu_item"><a href="#require" class="menu_link">Каталог</a></li>
+                <li class="li menu_item"><a href="#require" class="menu_link">Сервис и Гарантия</a></li>
+                <li class="li menu_item"><a href="#require" class="menu_link">Условия Покупки</a></li>
+                <li class="li menu_item"><a href="#" class="menu_link">Вопросы и ответы</a></li>
+                <li class="li menu_item"><a href="#" class="menu_link">Контакты</a></li>
+            </ul>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+    <div class="subheader">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-4 offset-md-1">
+                    <a href="#" class="subheader_logo"></a>
+                </div>
+                <div class="subheader__row">
+                    <div class="subheader__row-img">
+                            <img class="subheader_logo-img" src="icons/phone.png" alt="logo">
+                    </div>
+                    <div class="subheader__row-phone">
+                        0505 01 01 01
+                        <br> 
+                        0505 01 01 01
+                        <br> 
+                        0505 01 01 01
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <button data-modal="consultation" class="btn subheader_btn">заказать звонок</button>
+                </div>
+            </div>
+            <div class="divider"></div>
+        </div>
+    </div>
+    </header>
+
+    <section class="promo">
+        <div class="container">
+            <div class="content">
+                <a href="#">Бытовые фильтры</a>
+                <a href="#">Диспенсеры</a>
+                <a href="#">Промышленные фильтры</a>
+                <a href="#">Аренда фильтров</a>
+                <div>
+                    <input name="name" required placeholder="Я ищу..." class="input" type="text">
+                </div>
+            </div>
+            </div>
+    </section>
+    <section class="carousel">
+        <div class="container">
+            <div class="carousel__inner">
+                <div style="outline: none !important;">
+                    <img src="img/slider.jpg" alt="slide">
+                </div>
+                <div style="outline: none !important;">
+                    <img src="img/slide.jpg" alt="slide">
+                </div>
+                <div style="outline: none !important;">
+                    <img src="img/slider.jpg" alt="slide">
+                </div>
+                <div style="outline: none !important;">
+                    <img src="img/slider.jpg" alt="slide">
+                </div>
+                <div style="outline: none !important;">
+                    <img src="img/slide.jpg" alt="slide">
+                </div>
+                <div style="outline: none !important;">
+                    <img src="img/slider.jpg" alt="slide">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="middle">
+        <div class="container">
+            <div class="middle__wrapper">
+                <div class="middle__item">
+                    <img src="icons/cup_73.svg" alt="cup" class="middle__icon">
+                    <div class="middle__subtitle">
+                        8 лет на рынке
+                    </div>
+                </div>
+                <div class="middle__item middle__item_help">
+                    <img src="icons/cup_73.svg" alt="heart" class="middle__icon advantages__icon_animated">
+                    <div class="advantages__subtitle">
+                        Свой отдел сервиса
+                    </div>
+                </div>
+                <div class="middle__item middle__item_luc">
+                    <img src="icons/cup_73.svg" alt="shoe" class="middle__icon">
+                    <div class="middle__subtitle">
+                        Доступные цены
+                    </div>
+                </div>
+                <div class="middle__item middle__item_help">
+                    <img src="icons/cup_73.svg" alt="heart" class="middle__icon advantages__icon_animated">
+                    <div class="advantages__subtitle">
+                        Бесплатная доставка
+                    </div>
+                </div>
+                <div class="middle__item middle__item_help">
+                    <img src="icons/cup_73.svg" alt="heart" class="middle__icon advantages__icon_animated">
+                    <div class="advantages__subtitle">
+                        Напоминание о замене картриджа
+                    </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+        </div>
+    </section>
+
+    <section class="catalog">
+        <div class="container">
+            <h2 class="title">Каталог Товаров</h2>
+             <ul class="catalog__tabs">
+                <li class="catalog__tab catalog__tab_active"><div>СОО</div></li>
+                <li class="catalog__tab"><div>Фильтры</div></li>
+                <li class="catalog__tab"><div>Картриджы</div></li>
+            </ul>
+          <div class="catalog__content catalog__content_active">
+            <div class="catalog-item fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="icons/anime.png" alt="pulsometr" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Система обратного осмоса Clean Water Standard</div>
+                    </div>
+                </div>
+                <hr>
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prices">
+                        <div class="catalog-item__price">30 000 сом</div>
+                    </div>
+                    <button data-modal class="button button_mini">КУПИТЬ</button>
+                </div>
+            </div>
+            <div class="catalog-item fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="icons/anime.png" alt="pulsometr" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Система обратного осмоса Clean Water Compact</div>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prices">
+                        <div class="catalog-item__price">38 000 сом</div>
+                    </div>
+                    <button data-modal class="btn button_mini">КУПИТЬ
+                    </button>
+                </div>
+            </div>
+            <div class="catalog-item fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="icons/anime.png" alt="pulsometr" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Система обратного осмоса Clean Water Imperial</div>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prices">
+                        <div class="catalog-item__price">51 000 сом</div>
+                    </div>
+                    <button data-modal class="button button_mini">КУПИТЬ</button>
+                </div>
+                </div>
+            </div>
+            <div class="catalog__content">
+            <div class="catalog-item fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="icons/anime.png" alt="pulsometr" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Проточный фильтр Clean Water UCF2
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prices">
+                        <div class="catalog-item__price">8 500 сом</div>
+                    </div>
+                    <button class="button button_mini">КУПИТЬ</button>
+                </div>
+            </div>
+            <div class="catalog-item fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="icons/anime.png" alt="pulsometr" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Проточный фильтр Clean Water UCF1
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prices">
+                        <div class="catalog-item__price">6 400 сом</div>
+                    </div>
+                    <button class="button button_mini">КУПИТЬ</button>
+                </div>
+            </div>
+            <div class="catalog-item fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="icons/anime.png" alt="pulsometr" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Настольный фильтр Clean Water CTF2
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prices">
+                        <div class="catalog-item__price">4 250 сом</div>
+                    </div>
+                    <button class="button button_mini">КУПИТЬ</button>
+                </div>
+            </div>
+            <div class="catalog-item fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="icons/anime.png" alt="pulsometr" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Настольный фильтр Clean Water CTF1
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prices">
+                        <div class="catalog-item__price">2 970 сом</div>
+                    </div>
+                    <button class="button button_mini">КУПИТЬ</button>
+                </div>
+            </div>
+            </div>
+            <div class="catalog__content">
+            <div class="catalog-item fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="icons/anime.png" alt="pulsometr" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Картридж полипропиленовый 5 мкм (PP)
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prices">
+                        <div class="catalog-item__price">850 сом</div>
+                    </div>
+                    <button class="button button_mini">КУПИТЬ</button>
+                </div>
+            </div>
+            <div class="catalog-item fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="icons/anime.png" alt="pulsometr" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Картридж из активированного угля (GAC)
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prices">
+                        <div class="catalog-item__price">850 сом</div>
+                    </div>
+                    <button class="button button_mini">КУПИТЬ</button>
+                </div>
+            </div>
+            <div class="catalog-item fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="icons/anime.png" alt="pulsometr" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Картридж из активированного угля (СТО)
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prices">
+                        <div class="catalog-item__price">850 сом</div>
+                    </div>
+                    <button class="button button_mini">КУПИТЬ</button>
+                </div>
+            </div>
+            <div class="catalog-item fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="icons/anime.png" alt="pulsometr" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Мембрана для обратного осмоса (50GPD)
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prices">
+                        <div class="catalog-item__price">2 970 сом</div>
+                    </div>
+                    <button class="button button_mini">КУПИТЬ</button>
+                </div>
+            </div>
+            <div class="catalog-item fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="icons/anime.png" alt="pulsometr" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Картридж из активированного угля кокосовой скорлупы
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prices">
+                        <div class="catalog-item__price">850 сом</div>
+                    </div>
+                    <button class="button button_mini">КУПИТЬ</button>
+                </div>
+            </div>
+            <div class="catalog-item fadeInUp wow" data-wow-duration="2s" data-wow-delay="1s">
+                <div class="catalog-item__wrapper">
+                    <div class="catalog-item__content catalog-item__content_active">
+                        <img src="icons/anime.png" alt="pulsometr" class="catalog-item__img">
+                        <div class="catalog-item__subtitle">Картридж минерализатор <br> <br>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+
+                <div class="catalog-item__footer">
+                    <div class="catalog-item__prices">
+                        <div class="catalog-item__price">850 сом
+                        </div>
+                    </div>
+                    <button class="button button_mini">КУПИТЬ</button>
+                </div>
+            </div>
+        </div>
+        <div class="divider"></div>
+        </div>
+    </section>
+
+    <section class="demonstration">
+        <div class="container">
+            <h2 class="title title__mini">Подберем фильтр, сделаем бесплатную демонстрацию</h2>
+            <a href="tel:0505010101">
+                <div class="demonstration__btn">
+                    <span>Звоните: +996 505 01 01 01</span>
+                </div>
+            </a>
+            <h2 class="title title__mini">или закажите обратный звонок и мы сами вам позвоним</h2>
+            <div class="demonstration__btn-second">
+                <a href="#">Заказать обратный звонок</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="priority">
+        <div class="container">
+            <h2 class="title title_fz16 title__section-title">Преимущества наших фильтров</h2>
+            <div class="divider"></div>
+    
+            <div class="priority__wrapper">
+                <div class="priority__item">
+                    <div class="priority__type">Чистая вода в вашем доме</div>
+                </div>
+                <div class="priority__item">
+                    <div class="priority__type">Отсутсвие накипи</div>
+                </div>
+                <div class="priority__item">
+                    <div class="priority__type">Улучшенный вкус еды
+                    </div>
+                </div>
+                <div class="priority__item">
+                    <div class="priority__type">Низкая цена</div>
+                </div>
+                <div class="priority__item">
+                    <div class="priority__type">Европейское качество</div>
+                </div>
+                <div class="priority__item">
+                    <div class="priority__type">Бесплатная установка и обслуживание</div>
+                </div>
+            </div>
+        </div>
+    </section>  
+            <section style="background: #e2fffc; " class="contacts">
+                <h2 style="margin-top: 20px;" class= "title title__contacts">Контакты</h2>
+                <div class="container">
+                    <div class="accordion">
+                        <div class="accordion__item" data-collapse="#wedo_1">
+                            <div class="accordion__header">
+                                <div class="accordion__title">Бишкекский филиал</div>
+                            </div>
+                            <div class="accordion__content" id="wedo_1">
+                                <p>г. Бишкек
+                                    12 мкр, 29
+                                    (Торговый Центр "ДК")
+                                    0700 009010, 0555 606070
+                                    0312 892508, 0312 892514</p>
+                            </div>
+                        </div>
+
+                        <div class="accordion__item" data-collapse="#wedo_2">
+                            <div class="accordion__header">
+                                <div class="accordion__title">Ошский филиал</div>
+                            </div>
+                            <div class="accordion__content" id="wedo_2">
+                                <p>г. Ош
+                                    ул. Масалиева 58/3 0557 105 707, 0559 993 590</p>
+                            </div>
+                        </div>
+
+                        <div class="accordion__item" data-collapse="#wedo_3">
+                            <div class="accordion__header">
+                                <div class="accordion__title">Жалалабадский филиал</div>
+                            </div>
+                            <div class="accordion__content" id="wedo_3">
+                                <p>г. Жалал-абад
+                                    мкр. Спутник, ул. Жени Жок 33Б 03722 52730, 0771 882000</p>
+                            </div>
+                        </div>
+                        <div class="accordion__item" data-collapse="#wedo_4">
+                            <div class="accordion__header">
+                                <div class="accordion__title">Каракольский филиал</div>
+                            </div>
+                            <div class="accordion__content" id="wedo_4">
+                                <p>г. Каракол
+                                    ул. Абдрахманова 142 0557 565195, 0707 565195</p>
+                            </div>
+                        </div>
+                        <div class="accordion__item" data-collapse="#wedo_6">
+                            <div class="accordion__header">
+                                <div class="accordion__title">Токмокский филиал</div>
+                            </div>
+                            <div class="accordion__content" id="wedo_6">
+                                <p>г. Токмок
+                                    ул. Шамшинская 36 0557 106955, 0702 852862</p>
+                            </div>
+                        </div>
+                        <div class="accordion__item" data-collapse="#wedo_7">
+                            <div class="accordion__header">
+                                <div class="accordion__title">Таласский филиал</div>
+                            </div>
+                            <div class="accordion__content" id="wedo_7">
+                                <p>г. Талас
+                                    ул. Чубак Сатаева 79 0703 169696, 0999 403160</p>
+                            </div>
+                        </div>
+                        <div class="accordion__item" data-collapse="#wedo_8">
+                            <div class="accordion__header">
+                                <div class="accordion__title">Нарынский филиал</div>
+                            </div>
+                            <div class="accordion__content" id="wedo_8">
+                                <p>г. Нарын
+                                    ул. Ленина 103 0500 222274, 0706 112811, 0505 929192</p>
+                            </div>
+                        </div>
+                        <div class="accordion__item" data-collapse="#wedo_9">
+                            <div class="accordion__header">
+                                <div class="accordion__title">Кара-Балтинский филиал</div>
+                            </div>
+                            <div class="accordion__content" id="wedo_9">
+                                <p>г. Кара-балта
+                                    ул. Жайыл Баатыра 62 0778 909904, 0557 555700, 0500 059090</p>
+                            </div>
+                        </div>
+                        <div class="accordion__item" data-collapse="#wedo_10">
+                            <div class="accordion__header">
+                                <div class="accordion__title">Балыкчинский филиал</div>
+                            </div>
+                            <div class="accordion__content" id="wedo_10">
+                                <p>г. Балыкчи
+                                    ул. Саякбай Каралаева 38 0706 200600, 0222 275555, 0500 222275</p>
+                            </div>
+                        </div>
+                        <div class="accordion__item" data-collapse="#wedo_11">
+                            <div class="accordion__header">
+                                <div class="accordion__title">Кочкорский филиал</div>
+                            </div>
+                            <div class="accordion__content" id="wedo_11">
+                                <p>с. Кочкор
+                                    ул. Ишен Омурова 30 0702 194030, 0772 194030, 0706 288188</p>
+                            </div>
+                        </div>
+                        <div class="accordion__item" data-collapse="#wedo_12">
+                            <div class="accordion__header">
+                                <div class="accordion__title">Чаекский филиал</div>
+                            </div>
+                            <div class="accordion__content" id="wedo_12">
+                                <p>с. Чаек
+                                    ул. Эркинбек Матыева 64 0709 843115, 0999 919983</p>
+                            </div>
+                        </div>
+                        <div class="accordion__item" data-collapse="#wedo_13">
+                            <div class="accordion__header">
+                                <div class="accordion__title">Токтогулский филиал</div>
+                            </div>
+                            <div class="accordion__content" id="wedo_13">
+                                <p>г. Токтогул
+                                    ул. Шакир Кенжетаева б/н 0700 273308, 0227 930393</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <section class="order">
+        <h2 class="title order__title">Связаться с нами</h2>
+        <div class="container">
+            <form action="#" class="order__form">
+                <input required placeholder="Ваше имя" name="name" type="text" class="order__input">
+                <input required placeholder="Ваш номер телефона" name="phone" type="phone" class="order__input">
+                <img src="icons/like.png" alt="right">
+                <button class="order__btn">Перезвонить мне</button>
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1737.0267448501186!2d37.64624047364648!3d55.76831563990905!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a636edcd2ad%3A0x4c2ca101e2c8c617!2z0JzRj9GB0L3QuNGG0LrQuNC5INC_0YAt0LQsIDQvMywg0JzQvtGB0LrQstCwLCDQoNC-0YHRgdC40Y8sIDEwNzA3OA!5e0!3m2!1sru!2sua!4v1559894689029!5m2!1sru!2sua" width="100%" height="630" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+        <div class="footer__info">
+            <address class="footer__addr">Бишкек ДК/12 мкр</address>
+            <a class="footer__phone" href="tel:0505010101">+996 505 01 01 01</a>
+            <a class="footer__phone" href="tel:0505010101">+996 505 01 01 01</a>
+            <a class="footer__phone" href="tel:0505010101">+996 505 01 01 01</a>
+            <div class="footer__social">
+                <a href="#" class="footer__social-item"><img src="icons/Vector.svg" alt="facebook"></a>
+                <a href="#" class="footer__social-item"><img src="icons/Vector.svg" alt="instagram"></a>
+                <a href="#" class="footer__social-item"><img src="icons/Vector.svg" alt="pinterest"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

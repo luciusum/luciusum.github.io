@@ -1,0 +1,16 @@
+.title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #0d0d0d;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 90px;
+    &__mini {
+        font-size: 15px;
+        font-weight: 400;
+        margin-top: 20px;
+    }
+    &__contacts {
+        padding: 30px 0;
+    }
+}
